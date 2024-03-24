@@ -15,7 +15,7 @@ print(study_data.columns)
 # Chargement du dataframe dans MYSQL
 try:
     connexion = mysql.connector.connect(host='localhost',
-                                       database='db_study',
+                                       database='study_performance_db',
                                        user='root',
                                        password='')
     if connexion.is_connected():
